@@ -13,7 +13,7 @@ else:
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Docker!'
+    return 'Hello, Docker! I made automated changes! Change in the host is reflecting on container'
 
 
 @app.route('/widgets')
